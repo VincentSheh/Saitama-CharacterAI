@@ -41,7 +41,7 @@ Canonical One Punch Man knowledge is stored as markdown documents under `knowled
 These documents are chunked, embedded, and indexed using FAISS to support similarity-based retrieval during inference.
 
 **Short-Term Memory**  
-Implemented as a rolling window of the last 15 dialogue turns.  
+Implemented as a rolling window of the last N=10 dialogue turns.  
 This enables conversational coherence while keeping context size bounded.
 
 **Long-Term Memory**  
