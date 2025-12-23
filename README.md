@@ -37,7 +37,7 @@ Defines Saitama’s speaking style, behavioral constraints, scope control, and i
 This prompt enforces persona consistency across all responses.
 
 **Retrieval-Augmented Generation (RAG)**  
-Canonical One Punch Man knowledge is stored as markdown documents under `knowledge/`.  
+Canonical One Punch Man knowledge is stored as markdown documents under `knowledge/`, obtained from the One Punch Man Wiki https://onepunchman.fandom.com/wiki/One-Punch_Man_Wiki.  
 These documents are chunked, embedded, and indexed using FAISS to support similarity-based retrieval during inference.
 
 **Short-Term Memory**  
