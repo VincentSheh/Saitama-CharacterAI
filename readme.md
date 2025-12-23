@@ -60,6 +60,7 @@ pip install faiss-cpu sentence-transformers requests numpy
 #### 2. Set OpenRouter API key
 ```bash
 export OPENROUTER_API_KEY="your_api_key_here"
+export TAVILY_API_KEY="your_api_key_here"
 ```
 #### 3. Build the knowledge base (one-time)
 ```bash
